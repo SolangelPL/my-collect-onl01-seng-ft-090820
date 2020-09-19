@@ -1,10 +1,11 @@
 def my_collect(students)
-  students = [ ]
+  pupil = [ ]
   counter = 0
-      my_collect(students) do |i|
+      while counter < students.length 
+      pupil << students[counter]
       counter += 1
       end
-    i =+ 1 
+    pupil 
 end
 
 
