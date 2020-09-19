@@ -7,11 +7,7 @@ def my_collect(students)
     i =+ 1 
 end
 
-def my_collect(languages)
-    my_collect(languages) do |language|
-    end
-end
- 
+
 
   
 
